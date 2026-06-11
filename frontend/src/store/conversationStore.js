@@ -844,7 +844,7 @@ const conversationStore = create((set, get) => ({
      */
     getContextUsageDisplay: (settings) => {
       const { currentConversation } = get();
-      if (!currentConversation) return '0 / 8000';
+      if (!currentConversation) return '? / 8000';
       
       const { getContextUsageDisplay } = require('../lib/chatPayloadBuilder');
       return getContextUsageDisplay(currentConversation, settings);
