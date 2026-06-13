@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache
+.cache/
+.vite/
+
+# Test coverage
+coverage/
+
+# temp files
+tmp/
+temp/
+
+check_syntax.cjs
+completed_tasks.md
+FRONTEND_BACKEND_CONTRACT.md
+ARCHITECTURE.md
+src/pages/ModelHubPage.jsx.backup
