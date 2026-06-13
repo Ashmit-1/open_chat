@@ -104,11 +104,16 @@ function Sidebar() {
       >
         {/* Sidebar header - fixed at top */}
         <div className="p-4 flex items-center justify-between shrink-0 border-b border-gray-800">
-          {!effectiveCollapsed ? (
-            <h1 className="text-xl font-bold uppercase tracking-wider">LLM Chat</h1>
-          ) : (
-            <div className="w-full" />
-          )}
+          <div className="flex items-center gap-3 min-w-0">
+            <img
+              src="/logo.jpeg"
+              alt="MyLLM Logo"
+              className={`shrink-0 object-contain ${effectiveCollapsed ? 'w-8 h-8' : 'w-8 h-8'}`}
+            />
+            {!effectiveCollapsed && (
+              <h1 className="text-xl font-bold uppercase tracking-wider truncate">My LLM</h1>
+            )}
+          </div>
           <div className="flex items-center gap-2">
             {/* Collapse toggle button - only show on desktop */}
             <button
