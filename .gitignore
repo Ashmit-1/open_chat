@@ -7,8 +7,24 @@ wheels/
 *.egg-info
 
 
+
 # Virtual environments
 .venv
 
 #Agent Instructions
 .pi
+
+#other files
+backend/ARCHITECTURE.md
+backend/implementation.md
+backend/question_answers.md
+
+
+frontend/check_syntax.cjs
+frontend/completed_tasks.md
+frontend/FRONTEND_BACKEND_CONTRACT.md
+frontend/ARCHITECTURE.md
+frontend/src/pages/ModelHubPage.jsx.backup
+
+frontend/AGENTS.md
+frontend/STATE_ARCHITECTURE.md
