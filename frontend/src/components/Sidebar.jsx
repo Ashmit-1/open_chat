@@ -106,12 +106,12 @@ function Sidebar() {
         <div className="p-4 flex items-center justify-between shrink-0 border-b border-gray-800">
           <div className="flex items-center gap-3 min-w-0">
             <img
-              src="/logo.jpeg"
-              alt="MyLLM Logo"
+              src="/botbox_logo.png"
+              alt="BotBox Logo"
               className={`shrink-0 object-contain ${effectiveCollapsed ? 'w-8 h-8' : 'w-8 h-8'}`}
             />
             {!effectiveCollapsed && (
-              <h1 className="text-xl font-bold uppercase tracking-wider truncate">My LLM</h1>
+              <h1 className="text-xl font-bold uppercase tracking-wider truncate">BotBox</h1>
             )}
           </div>
           <div className="flex items-center gap-2">
